@@ -1,0 +1,5 @@
+{
+  "title": "Summarize whitepaper",
+  "requirements": ["Include executive summary", "Cite 3 key risks", "Keep under 500 words"],
+  "reward": "1.5 USDC"
+}

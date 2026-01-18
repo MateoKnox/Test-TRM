@@ -1,0 +1,4 @@
+Executive summary:
+- The paper proposes a hybrid agent market.
+- It optimizes latency with local orchestration.
+- It suggests cryptoeconomic verification for trust minimization.
