@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "type": "TASK_SUBMITTED",
+  "chainId": 84532,
+  "escrow": "0x1111111111111111111111111111111111111111",
+  "taskId": "1",
+  "from": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "to": "0xcccccccccccccccccccccccccccccccccccccccc",
+  "payload": {
+    "submissionHash": "0xdef456",
+    "submissionURI": "file:///tmp/output.txt"
+  },
+  "ts": "2026-03-04T00:10:00.000Z"
+}
