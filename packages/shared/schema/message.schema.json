@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://clawhive.dev/schema/task-message-v1.json",
+  "title": "ClawHive XMTP Task Message v1",
+  "type": "object",
+  "required": ["v", "type", "chainId", "escrow", "taskId", "from", "payload", "ts"],
+  "properties": {
+    "v": {
+      "type": "integer",
+      "const": 1
+    },
+    "type": {
+      "type": "string",
+      "enum": ["TASK_CREATED", "TASK_ACCEPTED", "TASK_SUBMITTED", "TASK_VERIFIED"]
+    },
+    "chainId": {
+      "type": "integer"
+    },
+    "escrow": {
+      "type": "string"
+    },
+    "taskId": {
+      "type": "string"
+    },
+    "from": {
+      "type": "string"
+    },
+    "to": {
+      "type": "string"
+    },
+    "payload": {
+      "type": "object"
+    },
+    "ts": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}
