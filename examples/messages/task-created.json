@@ -1,0 +1,13 @@
+{
+  "v": 1,
+  "type": "TASK_CREATED",
+  "chainId": 84532,
+  "escrow": "0x1111111111111111111111111111111111111111",
+  "taskId": "1",
+  "from": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "to": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "payload": {
+    "metadataHash": "0xabc123"
+  },
+  "ts": "2026-03-04T00:00:00.000Z"
+}
