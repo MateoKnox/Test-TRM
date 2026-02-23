@@ -1,0 +1,11 @@
+{
+  "name": "@clawhive/docs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "node -e \"console.log('docs build: none')\"",
+    "test": "node -e \"console.log('docs test: none')\"",
+    "lint": "prettier --check \"**/*.md\"",
+    "typecheck": "node -e \"console.log('docs typecheck: none')\""
+  }
+}
